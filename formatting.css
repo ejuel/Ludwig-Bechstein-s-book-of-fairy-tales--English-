@@ -1,0 +1,433 @@
+body {
+    margin-left:6.25%;
+    margin-right:6.25%;
+    position: relative;
+    min-width: 700px;
+}
+
+p {
+    margin:0;
+    text-align:justify;
+    text-indent:1.4em;
+}
+
+h2 {
+    text-align: center;
+    margin: 1em;
+}
+
+div.sub-head {
+    font-weight: bold;
+    text-align: center;
+    font-size: smaller;
+    margin-top: -1em;
+}
+
+div.chapter {
+    margin-top: 3em;
+    margin-right: 0;
+    margin-bottom: 3em;
+    margin-left: 0;
+    page-break-before:always;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0.5em;
+    margin-right: 0;
+    margin-bottom: 0.5em;
+    margin-left: 0;
+    line-height: 2.5em;
+}
+
+h2.nobreak {
+    page-break-before: avoid;
+}
+
+/* chapter separator only in html */
+hr.ch_sep {
+    margin-left: 35%;
+    margin-right: 35%;
+    clear: both;
+}
+
+span.pagenum { /* uncomment the next line for invisible page numbers */
+    /*  visibility: hidden;  */
+    position: absolute;
+    right: -3em;
+    font-size: small;
+    text-indent: 0;
+    text-align: right;
+    border: 1px solid silver;
+    margin-top: 0.3em;
+    padding: 0 0.2em;
+    color: silver;
+}
+
+.larger {
+    font-size: 150%;
+}
+
+.smaller-1 {
+    font-size: 90%;
+}
+
+.spaced {
+    line-height: 300%;
+}
+
+.larger-1 {
+    font-size: 110%;
+}
+
+.larger-2 {
+    font-size: 125%;
+}
+
+p.noindent {
+    text-indent: 0;
+}
+
+p.first {
+    text-indent: 0;
+}
+
+p.first:first-letter {
+    font-size: 160%;
+}
+
+p.center {
+    text-align: center;
+    text-indent: 0;
+}
+
+p.space {
+    padding-top: 3em;
+}
+
+p.small {
+    font-size: 90%;
+}
+
+p.footnote {
+    text-indent:2.4em;
+    margin-top: 0.5em;
+}
+
+span.emphasis
+{
+    letter-spacing: 0.2em;
+    margin-right: -0.2em;
+}
+
+span.antiqua {
+    font-style: italic;
+}
+
+span.underline {
+    text-decoration: underline;
+}
+
+/* ----- contents and index ----- */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    text-indent: -1em;
+    padding-left: 1em;
+}
+
+table {
+    border-spacing: 0;
+}
+
+tr {
+    vertical-align: bottom;
+}
+
+.list-text {
+    text-indent: -1em;
+    padding-left: 1em;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.list-ref {
+    text-align: right;
+    padding-left: 1em;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+/* ----- illustrations ----- */
+img {
+    vertical-align: middle;
+}
+
+/* ----- outside paragraph ----- */
+div.pic {
+    text-align: center;
+    margin-top: 0.5em;
+    margin-right: 0;
+    margin-bottom: 0.5em;
+    margin-left: 0;
+}
+
+div.widepic {
+    text-align: center;
+    margin-top: 0.5em;
+    margin-right: 0;
+    margin-bottom: 0.5em;
+    margin-left: -6%;
+}
+
+div.topspace {
+    margin-top: 2em;
+}
+
+/* ----- inside paragraph ----- */
+span.centrepic {
+    float: left;
+    text-align: center;
+    text-indent: 0;
+    margin-top: 0.5em;
+    margin-right: 0;
+    margin-bottom: 0.5em;
+    margin-left: 0;
+    width: 100%;
+    display: block;
+}
+
+span.leftpic {
+    float: left;
+    text-indent: 0;
+    margin-top: 0.2em;
+    margin-right: 0.5em;
+    margin-bottom: 0.2em;
+    margin-left: 0;
+    display: block;
+}
+
+span.wideleft {
+    float: left;
+    text-indent: 0;
+    margin-top: 0.2em;
+    margin-right: 0.5em;
+    margin-bottom: 0.2em;
+    margin-left: -4%;
+    display: block;
+}
+
+span.rightpic {
+    float: right;
+    text-indent: 0;
+    margin-top: 0.2em;
+    margin-right: 0;
+    margin-bottom: 0.2em;
+    margin-left: 0.5em;
+    display: block;
+}
+
+span.right {
+    display: block;
+    text-align: right;
+    padding-right: 2em;
+}
+
+/* ----- Illustration Capitals with heading beside illo ----- */
+p.drop_w {
+    text-indent: -20px;
+}
+
+img.a0 {
+    float: left;
+    margin-right: -10px;
+}
+
+div.a0 {
+    height: 295px;
+}
+
+h2.a0 {
+    padding-top: 190px;
+    margin: 0;
+}
+
+img.a1 {
+    float: left;
+    margin-right: 20px;
+}
+
+div.a1 {
+    position: absolute;
+    width: 100%;
+}
+
+div.as1 {
+    height: 210px;
+}
+
+h2.a1 {
+    padding-top: 55px;
+    padding-left: 220px;
+    margin: 0;
+}
+
+img.a2 {
+    float: left;
+    margin-right: 18px;
+}
+
+div.a2 {
+    height: 190px;
+}
+
+h2.a2 {
+    padding-top: 35px;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+/* ----- Illustration Capitals with heading above ----- */
+img.drop {
+    float: left;
+    padding-top: 0;
+    padding-right: 24px;
+    padding-bottom: 0;
+    padding-left: 0;
+}
+
+p.d0 {
+    padding-top: 25px;
+}
+
+p.d1 {
+    padding-top: 10px;
+}
+
+/* ----- to omit first letter ----- */
+span.drop  { display:none; }
+
+span.smaller
+{
+  font-size: 70%;
+}
+
+/* not centre to align fragmented poems */
+/* nook no shorthand */
+div.poetry-container
+{
+    margin-right: 0;
+    font-size: 90%;
+}
+div.p-c-align {
+    margin-left: 3em;
+}
+
+div.p-c-centre
+{
+    margin-left: 0;
+    text-align: center;
+}
+
+div.poetry
+{
+    display: inline-block;
+    text-align: left;
+    max-width: 90%;
+}
+
+div.stanza {
+    margin-top: 0.5em;
+    margin-right: 0;
+    margin-bottom: 0.5em;
+    margin-left: 0;
+}
+
+div.verse {
+    text-indent: -3em;
+    padding-left: 3em;
+}
+
+/* transcribers notes */
+div.trnote {
+    background-color: #EEE;
+    color: #000;
+    padding: .5em;
+    margin: 1em 5% 1em 5%;
+    font-family: sans-serif;
+    font-size: smaller;
+}
+
+div.epub-only {
+    visibility: hidden; display: none;
+}
+
+p.tnote {
+    margin-top: 0.5em;
+    margin-right: 0;
+    margin-bottom: 0.5em;
+    margin-left: 0;
+    text-align: left;
+    text-indent: 0;
+}
+
+p.bold {
+    font-weight: bold;
+}
+
+.x-ebookmaker body {
+    margin-left:0;
+    margin-right:0;
+    position: inherit;
+    min-width: inherit;
+}
+.x-ebookmaker div.chapter {
+    margin: 0;
+    padding: 0;
+    page-break-before:always;
+}
+.x-ebookmaker span.emphasis
+{
+    font-style: italic;
+    letter-spacing: 0;
+    margin-right: 0;
+}
+.x-ebookmaker p.drop_w {
+    text-indent:0;
+}
+.x-ebookmaker p.drop_w:first-letter {
+    font-size: 160%;
+}
+.x-ebookmaker span.drop {
+    display:inline;
+}
+.x-ebookmaker span.leftpic, .x-ebookmaker span.wideleft
+{
+    float: left;
+}
+.x-ebookmaker span.rightpic
+{
+    float: right;
+}
+.x-ebookmaker div.poetry {
+    display: block;
+    margin-left: 3em;
+}
+.x-ebookmaker h2.a0, .x-ebookmaker h2.a1, .x-ebookmaker h2.a2 {
+    padding: 0;
+    margin: 1em;
+}
+.x-ebookmaker img.a1, .x-ebookmaker img.a2 {
+    float: none;
+    margin-right: 0;
+}
+.x-ebookmaker p.d0, .x-ebookmaker p.d1 {
+    padding-top: 0;
+}
+
+.x-ebookmaker .epub-only {
+    visibility: visible; display: block;
+}
